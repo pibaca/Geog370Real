@@ -18,42 +18,57 @@
     </p>
     
     <h2>Pseudo Mercator Projection</h2>
-    <h3>Some observations</h3>
+    <h3>This projection is a good example of sacrificing size in order to preserve angles.
+        This projection conserves angles and shapes, as is shown by the straight lines, but it enlarges sizes at the north and south poles.
+    </h3>
     <a href=".//maps/3857.png">
     <img src=".//maps/3857.png" alt="P Mercator" width='500px'>
     </a>
     <h2>Winkel Sphere Projection</h2>
-    <h3>Some observations</h3>
+    <h3>The Winkel Sphere projection attempts to find a working balance between angle preservation, shape preservation, and size preservation. 
+        As is shown by the oval caps layer, the projection enlarges the poles slightly, but not as much as the mercator projection. 
+        From this projection, it is easier to see the curveature of the earth and how different continents fall on a globe perspective. 
+    </h3>
     <a href=".//maps/53018d.png">
     <img src=".//maps/53018d.png" alt="Winkel" width='500px'>
     </a>
     <h2>Cylindrical Sphere Projection</h2>
-    <h3>Some observations</h3>
+    <h3>The cylindrical sphere preserves size, shape and angle at the equator line. 
+        Everywhere else, size and shape of continents are compromised, both at the north and south poles. 
+        This is especially prominent with the extremely stretched ovals at the very top of the northern continents and bottom of the southern continents. 
+    </h3>
     <a href=".//maps/54034.png">
     <img src=".//maps/54034.png" alt="Cylindrical" width='500px'>
     </a>
     <h2>Conic Equidistant Sphere Projection</h2>
-    <h3>Some observations</h3>
+    <h3>This is one of the first maps where the bottom of South America and Africa is visibly larger due to distortions. 
+        The northern continents appear smaller in size, as they fall in the middle of the map.
+        Antartica is the most distorted feature, as the size and shape is signficiantly different. However, the angles are preserved.
+    </h3>
     <a href=".//maps/54027.png">
     <img src=".//maps/54027.png" alt="Conic" width='500px'>
     </a>
     <h2>Azimuthal Equidistant Sphere Projection</h2>
-    <h3>Some observations</h3>
+    <h3>This map is very similar to the Conic Equidistant map, with the exception that Antartica wraps around the entire sphere, as opposed to getting cut off.   </h3>
     <a href=".//maps/102016B.png">
     <img src=".//maps/102016B.png" alt="Azimuthal" width='500px'>
     </a>
-    <h2>Sphere Caster Parabolic Projection</h2>
-    <h3>Some observations</h3>
+    <h2>Caster Parabolic Sphere Projection</h2>
+    <h3>We see the preservation of angles along the prime meridian and equator, 
+        but fairly obvious size and shape distortions at the northern and southern poles.</h3>
     <a href=".//maps/53046.png">
     <img src=".//maps/53046.png" alt="Cylindrical" width='500px'>
     </a>
-    <h2>Equidistant Cylindrical World Projection</h2>
-    <h3>Some observations</h3>
+    <h2>Equidistant Cylindrical Projection</h2>
+    <h3>This projection is similar to the Mercator, in the sense that it distorts the size of the northern poles, but conserves the shape. 
+        Near the equator countries are stretched, which distorts the shape and the size.
+        This is done so that the map can conserve all angles.
+    </h3>
     <a href=".//maps/54002.png">
     <img src=".//maps/54002.png" alt="EquidistCyl" width='500px'>
     </a>
-    <h2 style="color:rgb(121, 5, 5)">Now, you should <u>add the following projections on your own:</u></h2>
-    <h3>EPSG: 3857, 53018, 54034, 54027, 102016, and two additional projections that you choose.</h3>
+    <h2 style="color:rgb(121, 5, 5)">Projects Used</h2>
+    <h3>EPSG: 3857, 53018, 54034, 54027, 102016, 102016, and 53046.</h3>
     <p></p>
     <h2>Data used for this project</h2>
     <a href="https://www.naturalearthdata.com/http//www.naturalearthdata.com/download/10m/cultural/ne_10m_admin_0_countries.zip"> Download Natrual Earth 1:10m Cultural Vector </a>
