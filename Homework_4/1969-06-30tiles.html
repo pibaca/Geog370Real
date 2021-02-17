@@ -18,21 +18,16 @@
        padding: 0;
     }
     html, body, #map{
-       width: 80%;
-       height: 80%;
+       width: 100%;
+       height: 100%;
     }
   </style>
 </head>
-<head><h1> Tiles Made From UNC Campus </h1> </head> <br> 
-<h2>PNG made from both maps</h2>
-  <a href="UNC tiles.png">
-    <img src="UNC tiles.png" alt="Tiles" width='500px'>
 <body>
-  <link https://gisunc.github.io/GEOG370Sp2021/homework/georeferencedpointsREAL.points /link>
   <div id="map"></div>
   <script>
-      var map = L.map('map').setView([35.905036286458795, -79.04994901452922], 14.0);
-      L.tileLayer('./tiles2/{z}/{x}/{y}.png', {
+      var map = L.map('map').setView([47.67884988430832, -122.32402218606539], 14.0);
+      L.tileLayer('file:///C%3A/Users/palom/Desktop/UNC/SPRING%2021/GEOG%20370/hw4/tiles1969/{z}/{x}/{y}.png', {
         minZoom: 12,
         maxZoom: 16,
         tms: false,
