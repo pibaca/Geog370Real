@@ -12,7 +12,7 @@
   <script src="https://unpkg.com/leaflet@1.5.1/dist/leaflet.js"
    integrity="sha512-GffPMF3RvMeYyc1LWMHtK8EbPv0iNZ8/oTtHPx9/cc2ILxQ+u905qIwdpULaqDkyBKgOaB57QTMg7ztg8Jm2Og=="
    crossorigin=""></script>
-   <script src = "./hw6attributes.geojson"></script>
+   <script src = "./githubhw6/hw6attributes.geojson"></script>
   <style type="text/css">
     body {
        margin: 0;
@@ -46,7 +46,7 @@
         popupAnchor: [0,0] 
         });
 
-        var Popup1 = "Greenlake Condominiums <br/><img src='./greenlake.jpeg'width='100px'/>";
+        var Popup1 = "Greenlake Condominiums <br/><img src='https://images1.forrent.com/i2/DDSn7qYJ0hTxHHEJzIsbToODwhYuEUY5LIy1JrnNcx8/117/image.jpg' width='100px'/>";
 
         L.geoJSON(GreenlakeCondo, { 
         pointToLayer: function (feature, latlng) {
@@ -62,7 +62,7 @@
         popupAnchor: [0,0] 
         });
 
-        var Popup2 = "Cavalry Church Assembly <br/><img src='./calvary.jpeg'width='100px'/>";
+        var Popup2 = "Cavalry Church Assembly <br/><img src='https://i.pinimg.com/564x/60/ff/37/60ff3777a0bbbfbd048f45a27e24e445.jpg'width='100px'/>";
 
         L.geoJSON(CavalryChurch, { 
         pointToLayer: function (feature, latlng) {
@@ -78,7 +78,7 @@
         popupAnchor: [0,0] 
         });
 
-        var Popup3 = "Roosevelt High School football field <br/><img src='./rooseveltreal.jpeg'width='100px'/>";
+        var Popup3 = "Roosevelt High School football field <br/><img src='https://www.bassettiarch.com/wp-content/uploads/2017/12/5_ext-15yard-001a_ADDED_crop.jpg'width='100px'/>";
 
         L.geoJSON(RooseveltField, { 
         pointToLayer: function (feature, latlng) {
