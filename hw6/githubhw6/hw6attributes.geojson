@@ -1,0 +1,24 @@
+var GreenlakeCondo = {
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "id": 1, "descrip": "condos" }, "geometry": { "type": "Point", "coordinates": [ -122.32616409659384, 47.68114455076666] } }
+]
+}
+
+var CavalryChurch = {
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "id": 2, "descrip": "churchy church" }, "geometry": { "type": "Point", "coordinates": [ -122.31950148940086, 47.67843395504533 ] } }
+]
+}
+
+var RooseveltField = {
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "id": 3, "descrip": "football field Roosevelt HS" }, "geometry": { "type": "Point", "coordinates": [ -122.31443613767625, 47.67705873887891 ] } }
+]
+}
+

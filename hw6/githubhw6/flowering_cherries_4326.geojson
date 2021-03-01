@@ -1,0 +1,24 @@
+var GreenlakeCondo = {
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "id": 1, "descrip": "condos" }, "geometry": { "type": "Point", "coordinates": [ -122.32616409659384, 47.68114455076666] } }
+]
+}
+
+var UncLib = {
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "id": 2, "descrip": "info lib" }, "geometry": { "type": "Point", "coordinates": [ -79.0492057800293, 35.91130717779021 ] } }
+]
+}
+
+var UncLib = {
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "id": 3, "descrip": "info lib" }, "geometry": { "type": "Point", "coordinates": [ -79.0492057800293, 35.91130717779021 ] } }
+]
+}
+
