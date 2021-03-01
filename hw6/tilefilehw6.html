@@ -33,7 +33,7 @@
 
   <script>
       var map = L.map('map').setView([47.67884988430832, -122.32402218606539], 14.0);
-      L.tileLayer('file:///tiles/{z}/{x}/{y}.png', {
+      L.tileLayer('./tiles/{z}/{x}/{y}.png', {
         minZoom: 12,
         maxZoom: 16,
         tms: false,
@@ -46,7 +46,7 @@
         popupAnchor: [0,0] 
         });
 
-        var Popup1 = "Greenlake Condominiums <br/><img src='https://images1.forrent.com/i2/DDSn7qYJ0hTxHHEJzIsbToODwhYuEUY5LIy1JrnNcx8/117/image.jpg' width='100px'/>";
+        var Popup1 = "Greenlake Condominiums <br/><img src='https://images1.forrent.com/i2/DDSn7qYJ0hTxHHEJzIsbToODwhYuEUY5LIy1JrnNcx8/117/image.jpg'width='100px'/>";
 
         L.geoJSON(GreenlakeCondo, { 
         pointToLayer: function (feature, latlng) {
